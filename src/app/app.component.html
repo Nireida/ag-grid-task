@@ -1,0 +1,11 @@
+  <ag-grid-angular
+      #agGrid
+      id="myGrid"
+      class="ag-theme-balham full"
+      [columnDefs]="columnDefs"
+      [defaultColDef]="defaultColDef"
+      [floatingFilter]="true"
+      [rowData]="rowData"
+      [frameworkComponents]="frameworkComponents"
+      (gridReady)="onGridReady($event)"
+  ></ag-grid-angular>
